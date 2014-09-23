@@ -7,8 +7,6 @@
 
 package com.example.startbtn;
 
-import android.view.View;
-
 public final class R {
     public static final class anim {
         public static final int abc_fade_in=0x7f040000;
@@ -1097,7 +1095,7 @@ containing a value of this type.
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
-        public static final int button1=0x7f05003c;
+        public static final int btnEnd=0x7f05003c;
         public static final int checkbox=0x7f05002d;
         public static final int collapseActionView=0x7f05000d;
         public static final int default_activity_button=0x7f050028;
@@ -1144,7 +1142,6 @@ containing a value of this type.
         public static final int up=0x7f050021;
         public static final int useLogo=0x7f050003;
         public static final int withText=0x7f05000c;
-		public static int btnNext;
     }
     public static final class integer {
         /**  The maximum number of action buttons that should be permitted within
@@ -1197,8 +1194,8 @@ containing a value of this type.
         public static final int abc_search_view=0x7f030016;
         public static final int abc_simple_decor=0x7f030017;
         public static final int activity_main=0x7f030018;
-        public static final int support_simple_spinner_dropdown_item=0x7f030019;
-		public static final View Second = null;
+        public static final int second=0x7f030019;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001a;
     }
     public static final class menu {
         public static final int main=0x7f0c0000;
@@ -1246,7 +1243,10 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
         public static final int action_settings=0x7f0a000f;
         public static final int app_name=0x7f0a000d;
+        public static final int btn_second_title=0x7f0a0012;
+        public static final int btn_title=0x7f0a0011;
         public static final int hello_world=0x7f0a000e;
+        public static final int second_activity_title=0x7f0a0010;
     }
     public static final class style {
         /** 
