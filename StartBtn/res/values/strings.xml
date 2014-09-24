@@ -7,5 +7,6 @@
     <string name="second_activity_title">Second Activity</string>
     <string name="btn_title">Next</string>
     <string name="btn_second_title">End</string>
+    <string name="btn1">Press To Begin</string>
 
 </resources>
