@@ -1248,6 +1248,7 @@ containing a value of this type.
         public static final int btn1=0x7f0a0013;
         public static final int btn_second_title=0x7f0a0012;
         public static final int btn_title=0x7f0a0011;
+        public static final int button_label=0x7f0a0014;
         public static final int hello_world=0x7f0a000e;
         public static final int second_activity_title=0x7f0a0010;
     }
