@@ -24,23 +24,23 @@ public class SecondActivity extends ActionBarActivity {
         	
         	AlertDialog.Builder alertDialog = new AlertDialog.Builder(this);
         	
-        	alertDialog.setTitle("Confirm Delete...");
+        	alertDialog.setTitle("What Do You Want To Do?");
         	
-        	alertDialog.setMessage("Are you sure you want to delete this?");
+        	alertDialog.setMessage("Choose Wisely");
         	
-        	alertDialog.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+        	alertDialog.setPositiveButton("Continue Forward", new DialogInterface.OnClickListener() {
 				
 				@Override
 				public void onClick(DialogInterface dialog, int which) {
-					Toast.makeText(getApplicationContext(), "You have pressed Yes", Toast.LENGTH_SHORT).show();
+					Toast.makeText(getApplicationContext(), "You have chosen to continue forward", Toast.LENGTH_SHORT).show();
 				}
 			});
 			
-			alertDialog.setNegativeButton("No", new DialogInterface.OnClickListener() {
+			alertDialog.setNegativeButton("Lay Back Down", new DialogInterface.OnClickListener() {
 				
 				@Override
 				public void onClick(DialogInterface dialog, int which) {
-					Toast.makeText(getApplicationContext(), "You have pressed No", Toast.LENGTH_SHORT).show();
+					Toast.makeText(getApplicationContext(), "You have been devoured in your sleep!!!", Toast.LENGTH_SHORT).show();
 					
 				}
 			});
