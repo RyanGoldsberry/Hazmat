@@ -9,5 +9,13 @@
     <string name="btn_second_title">End</string>
     <string name="btn1">Press To Begin</string>
     <string name="button_label">What happened???</string>
+    <string name="button_label2">You Have Found Two Weapons</string>
+    <string name="button_label3">You Have Found Two Weapons</string>
+    <string name="button_label4">What the Hell is That?!?</string>
+    <string name="text_label">YOU\'RE DEAD</string>
+    <string name="button_label5">Restart</string>
+    <string name="text_label6">You Have Begun Your Journey</string>
+    <string name="text_label7">Thanks For Playing!</string>
+    <string name="button_label6">Home</string>
 
 </resources>

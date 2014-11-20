@@ -1,17 +1,11 @@
 package com.example.startbtn;
 
 import android.app.AlertDialog;
-import android.app.AlertDialog.Builder;
-import android.content.DialogInterface;
 import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.widget.*;
-import android.content.Intent;
+import android.content.*;
 import android.os.Bundle;
-
-
-
-
 
 public class SecondActivity extends ActionBarActivity {
 	
@@ -20,6 +14,9 @@ public class SecondActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.second);
     }
+    
+    
+    
         public void showAlertDialog(View v){
         	
         	AlertDialog.Builder alertDialog = new AlertDialog.Builder(this);
@@ -32,8 +29,13 @@ public class SecondActivity extends ActionBarActivity {
 				
 				@Override
 				public void onClick(DialogInterface dialog, int which) {
-					Toast.makeText(getApplicationContext(), "You have chosen to continue forward", Toast.LENGTH_SHORT).show();
+					Toast.makeText(getApplicationContext(), "You've Continued forward", Toast.LENGTH_SHORT).show();
+					Intent intent = new Intent(SecondActivity.this, ThirdActivity.class);
+					startActivity(intent);
+					
 				}
+					
+				
 			});
 			
 			alertDialog.setNegativeButton("Lay Back Down", new DialogInterface.OnClickListener() {
@@ -47,5 +49,7 @@ public class SecondActivity extends ActionBarActivity {
 			
 				alertDialog.show();
         }
+        
+        
 
 };
