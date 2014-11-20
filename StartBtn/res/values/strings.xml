@@ -17,5 +17,9 @@
     <string name="text_label6">You Have Begun Your Journey</string>
     <string name="text_label7">Thanks For Playing!</string>
     <string name="button_label6">Home</string>
+    <string name="final_Large"></string>
+    <string name="final_large">You Have Begun Your Journey Through HAZMAT</string>
+    <string name="string_large">THANKS FOR PLAYING!!!</string>
+    <string name="button_final">Restart Game</string>
 
 </resources>

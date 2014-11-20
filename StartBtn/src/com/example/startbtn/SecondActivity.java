@@ -43,7 +43,8 @@ public class SecondActivity extends ActionBarActivity {
 				@Override
 				public void onClick(DialogInterface dialog, int which) {
 					Toast.makeText(getApplicationContext(), "You have been devoured in your sleep!!!", Toast.LENGTH_SHORT).show();
-					
+					Intent intent = new Intent(SecondActivity.this, MainActivity.class);
+					startActivity(intent);
 				}
 			});
 			

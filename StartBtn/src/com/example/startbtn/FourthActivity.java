@@ -26,7 +26,9 @@ public class FourthActivity extends ActionBarActivity {
 				
 				@Override
 				public void onClick(DialogInterface dialog, int which) {
-					Toast.makeText(getApplicationContext(), "'Damn That Was Close'", Toast.LENGTH_SHORT).show();
+					Toast.makeText(getApplicationContext(), "You Killed it!!! Thanks for Playing!", Toast.LENGTH_SHORT).show();
+					Intent intent = new Intent(FourthActivity.this, MainActivity.class);
+					startActivity(intent);
 					
 				}
 			});
@@ -35,8 +37,9 @@ public class FourthActivity extends ActionBarActivity {
 				
 				@Override
 				public void onClick(DialogInterface dialog, int which) {
-					Toast.makeText(getApplicationContext(), "UNDEAD IS NOW CHASING YOU!", Toast.LENGTH_SHORT).show();
-					
+					Toast.makeText(getApplicationContext(), "UNDEAD CHASED YOU DOWN", Toast.LENGTH_SHORT).show();
+					Intent intent = new Intent(FourthActivity.this, FifthActivity.class);
+					startActivity(intent);
 				}
 			});
 			
